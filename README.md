@@ -4,25 +4,33 @@
 
 1. models, inside models folder put :
 
-category.js
-product.js
-order.js
-user.js
+category.js,
+
+product.js,
+
+order.js, 
+
+user.js,
 
 2. routes, inside routes folder put :
-categories.js
-products.js
-orders.js
-users.js
+categories.js,
 
-3. public, inside public folder put : uploads
+products.js,
 
-4. helpers, inside helpers folder put :
-error-handler.js
-jwt.js
+orders.js,
 
-5. create '.env' file and put this code :
-API_URL = /api/v1
+users.js,
+
+4. public, inside public folder put : uploads
+
+5. helpers, inside helpers folder put :
+error-handler.js,
+
+jwt.js,
+
+7. create '.env' file and put this code :
+API_URL = /api/v1,
+
 CONNECTION = 'mongodb+srv://<username>:<password>@.jg2lnvx.mongodb.net/<database_name>?retryWrites=true&w=majority'
 
 DON'T FORGET TO INSTALL THE PACKAGES (Dependencies)
